@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,16 +19,53 @@
         <div class="navbar-centre">
             <ul>
                 
-                <a href="#"><li>ACCUEIL</li></a>
+                <a href="index.html"><li>ACCUEIL</li></a>
             </ul>
         </div>
 
 
         <div class="navbar-right">
-            <ul>
-                <a href="#"><li>S'ENREGISTRER</li></a>
-                <a href="#"><li>S'IDENTIFIER</li></a>
-            </ul>
+
+            <!-- Modal menu REGISTER -->
+
+            <div class="modal_register">
+                <ul>
+                    <a href="#register"><li>S'INSCRIRE</li></a>
+                    <a href="#login"><li>S'IDENTIFIER</li></a>
+                </ul>
+                    <div id="register" class="modal">
+                        <div class="modal_content">
+                            <form>
+                                <h1>S'inscrire :</h1>
+                        
+                                <div class="inputs">
+                                    <input type="email" placeholder="Email" style="text-align: center;">
+                                    <input type="password" placeholder="Mot de passe" style="text-align: center;">
+                                </div>
+                        
+                                <p class="login">
+                                    Vous possédez déjà un compte ? <a href="#login" class="connexion"> Se connecter </a>
+                                </p>
+                        
+                                <div class="button">
+                                    <button type="reset"><a href="#"> S'identifier</a></button>
+                                </div>
+                            </form>
+                            <a href="#" class="modal_close">&times;</a>
+                        </div>
+                        
+                        
+
+
+                        
+                    </div>
+
+                
+            </div>
+
+            
+
+
         </div>
     </div>
     
@@ -126,5 +164,92 @@
             </a>
         </div>
     </div>
+
+    <div class="w3-content w3-display-container" style="box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.452);" >
+        <img class="mySlides" src="/assets/img/pub1.png" style="width:100%;">
+        <img class="mySlides" src="/assets/img/pub2.png" style="width:100%">
+        <img class="mySlides" src="/assets/img/pub3.png" style="width:100%">
+        <img class="mySlides" src="/assets/img/pub4.png" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" style="opacity: 20%;" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" style="opacity: 20%;" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+      
+      <div class="end-phrase">
+        <h1>Trouvez votre <span style="font-weight: 700;">bonheur</span></h1>
+      </div>
+      
+
+      <div class="footer">
+        <div class="redirection">
+            <a href="#">
+                <p>PREMIUM</p>
+            </a>
+            <a href="#">
+                <p>A PROPOS</p>
+            </a>
+            <a href="#">
+                <p>DISCUSSIONS</p>
+            </a>
+            <a href="#">
+                <p>BIBLIOTEQUE</p>
+            </a>
+            <a href="#">
+                <p>CONVERSATION</p>
+            </a>
+        </div>
+
+        <div class="logo-right">
+            <h1>Let's Be Friends</h1>
+            <img src="/assets/img/logosansfond.png" />
+        </div>
+      </div>
+
+
+    <!-- Modal menu ID -->
+
+<div class="modal_login">
+    <div id="login" class="modal">
+        <div class="modal_content">
+            <form>
+                <h1>S'identifier :</h1>
+        
+                <div class="inputs">
+                    <input type="email" placeholder="Email" style="text-align: center;">
+                    <input type="password" placeholder="Mot de passe" style="text-align: center;">
+                </div>
+        
+                <p class="login">
+                    Vous n'avez pas encore de compte ? <a href="#register" class="connexion"> S'inscrire </a>
+                </p>
+        
+                <div class="button">
+                    <button type="reset"><a href="#"> S'identifier</a></button>
+                </div>
+            </form>
+            <a href="#" class="modal_close">&times;</a>
+        </div>
+</div>
+
 </body>
 </html>
