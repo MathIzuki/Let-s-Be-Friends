@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/better-saturday');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+::selection {
+  background-color: #dfc787;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 80vh;
+    color: #fff;
+  }
+  
+  #background_video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .signin-box{
+    width: 500px;
+    height: 500px;
+    border: 0px solid black;
+    background-color: rgba(91, 93, 118, 0.205);
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 8%;
+    backdrop-filter: blur(10px);
+  }
+  
+  .signin-box h1{
+    padding-top: 3%;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #dfc787;
+  }
+  
+  form .text-field {
+    position: relative;
+    border-radius: 30px;
+    margin: 30px;
+  }
+
+  input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.3rem 0;
+    border-bottom: 2px solid #dfc787;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 6px;
+    text-align: center;
+  }
+  input:invalid {
+    outline: 0;
+  }
+  input:focus,
+
+  input:valid {
+    border-color: #dfc787;
+  }
+  
+  
+  input:focus~label{
+    text-decoration: underline #dfc787;  
+  }
+
+  input:valid~label {
+    color: #dfc887;
+  }
+
+  /*div nom / prénom */
+
+  .signin-box .nomPrenom {
+    display: flex;
+  }
+
+    /*Formulaire (Prénom) */
+    form .text-field-firstName {
+        position: relative;
+        border-radius: 30px;
+        margin: 30px;
+  }
+
+  .signin-box .text-field-firstName input{
+    position: relative;
+    left: 18px;
+    width: 160px;
+    height: 200 44px;
+    line-height: 44px;   
+  }
+
+  #firstName{
+    font-style: italic;
+  }
+
+  /* Formulaire (nom) */
+  form .text-field-name {
+    position: relative;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .signin-box .text-field-name input{
+    position: relative;
+    right: -55px;
+    width: 160px;
+    height: 44px;
+    line-height: 44px; 
+  }
+
+  #name {
+    font-style: italic;
+  }
+
+  /* div adresse / cp */
+  form .adresse_cp {
+    display: flex;
+  }
+
+  /* cp */
+  form .text-field-cp {
+    position: relative;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: -20px;
+  }
+
+  .signin-box .text-field-cp input{
+    position: relative;
+    right: -60px;
+    width: 90px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 2.5px;
+  }
+
+    #cp {
+        font-style: italic;
+        font-size: 15px;
+    }
+
+  /* adresse */
+  form .text-field-adresse {
+    position: relative;
+    border-radius: 30px;
+  }
+
+  .signin-box .text-field-addresse input{
+    position: relative;
+    left: 85px;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 8px;
+    margin-top: -20px; 
+  }
+
+    #adresse::placeholder {
+      font-style: italic;
+  }
+  
+  /* formulaire email */
+  .signin-box .text-field-email {
+    position: relative;
+    border-radius: 30px;
+    left: 10px;
+  }
+
+  .signin-box .text-field-email input {
+    width: 342px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 8px;
+  }
+
+  #email::placeholder{
+    font-style: italic;
+  }
+  /* formulaire mot de passe */
+  .signin-box .text-field-mdp {
+    position: relative;
+    border-radius: 30px;
+    left: 10px;
+  }
+
+  .signin-box .text-field-mdp input {
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 16px;
+  }
+
+  #mdp::placeholder{
+    font-style: italic;
+  }
+
+  /*autre*/
+  .forgot-paswd a:active{
+    font-size: 17.5px;
+    text-decoration: none;
+  }
+  
+  .btn-form{
+    margin-bottom: 8px;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-form button{
+    outline: none;
+    border: none;
+    background-color: #dfc887;
+    padding: 13px 17px;
+    border-radius: 50px;
+    transition: 0.2s;
+    font-size: 18px;
+  }
+  
+  .btn-form button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #dfc787;
+  }
+  
+  .btn-form a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  
+  .btn-form button:hover{
+    background-color: #dfc787;
+  }
+
+  .alreadylogin a:hover {
+    font-size: 18px;
+    transition: 1s;
+  }
+
+  .alreadylogin {
+    color: black;
+    position: sticky;
+    font-size: 16px;
+  }
+  
+  .alreadylogin a{
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #dfc787;
+  }
+  
+  .alreadylogin a:active{
+    color: rgb(65, 65, 65);
+    font-size: 17.4px;
+  }

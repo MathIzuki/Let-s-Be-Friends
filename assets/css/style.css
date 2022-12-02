@@ -11,7 +11,9 @@
     scroll-behavior: smooth;
     list-style: none;
 }
-
+::selection {
+    background-color: #dfc887;
+}
 .navbar{
     display: flex;
     align-items: center;

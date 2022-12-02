@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <title>S'enregistrer</title>
+        <link rel="stylesheet" href="assets/css/register.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="/assets/img/logosansfond.png">
+    </head>
+    <body>
+        <video id="background_video" loop muted autoplay>
+            <source src="/assets/img/vid.mp4" type="video/mp4">
+        </video>
+        <div class="signin-box">
+            <h1 class="title-signin" style="text-transform: uppercase">S'enregistrer</h1>
+            <form method="post">
+                <div class="nomPrenom">
+                    <div class="text-field-name">
+                        <input id="name" type="text" required placeholder="Nom">
+                    </div>
+
+                     <div class="text-field-firstName">
+                        <input id="firstName" type="text" required placeholder="Prénom">
+                    </div>
+                </div>
+
+                <div class="adresse_cp">
+                    <div class="text-field-addresse">
+                        <input id="adresse" type="text" required placeholder="Adresse">
+                    </div>
+
+                    <div class="text-field-cp">
+                        <input id="cp" type="text" maxlength="5" required placeholder="Code Postal">
+                    </div>
+                </div>
+
+                <div class="text-field-email">
+                    <input id="email" type="email" required placeholder="E-mail">
+                </div>
+
+                <div class="text-field-mdp">
+                    <input id="mdp" type="password" required placeholder="Mot de passe">
+                </div>
+
+                
+              <div class="btn-form">
+                <button><a id="register" href="index.html">S'enregister</a></button>
+              </div>
+            </form>
+            <div class="alreadylogin">
+              <p style="color: #fff;">Déjà enregisté ? <a href="login.html">S'indentifier</a></p>
+            </div>
+        </div>
+    </body>
+
+
+</html>
