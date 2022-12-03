@@ -31,6 +31,17 @@ body{
     z-index: -1;
   }
 
+  .retour img{
+    position: absolute;
+    width: 35px;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: rgba(91, 93, 118, 0.205);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+  }
   .signin-box{
     width: 500px;
     height: 350px;

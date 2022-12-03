@@ -91,7 +91,7 @@
 .first-content img{
     border: 0px solid red;
     border-radius: 100px;
-    width: 200px;
+    width: 170px;
 }
 
 .header-second-content{
@@ -176,14 +176,15 @@
 .third-content .contenu-image .premium img{
     width: 40px;
     position: absolute;
-    top: 1480px;
+    top: 1450px;
     left: 1650px;
+    
 }
 
 .third-content .contenu-image .cloche img{
     width: 40px;
     position: absolute;
-    top: 1480px;
+    top: 1450px;
     left: 480px;
 }
 
