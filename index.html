@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="/assets/img/logosansfond.png">
+    <script src="https://kit.fontawesome.com/a0ccaff52a.js" crossorigin="anonymous"></script>
     <title>LET'S BE FRIENDS</title>
     
 </head>
@@ -44,7 +45,7 @@
     </div>
 
     <div class="second-content">
-        <div class="profile-second-content" onclick="openThibault()">
+        <div class="profile-second-content" onclick="openThibault()" style="    cursor: pointer;">
             <img src="/assets/img/profile1.jpg" />
             <h3>Thibault</h3>
             <h4>Centre d'intérêts :</h4>
@@ -57,24 +58,75 @@
                 <img src="/assets/img/profile1.jpg" />
                 <div class="big-profile1-text">
                     <h2>Thibault, 23ans </h2>
-                    <h3>à 20km de chez vous</h3>
-                </div>
+                    <h3><i class="fa-solid fa-house"></i>  à 20km de chez vous</h3>
+                    <h4><i class="fa-solid fa-comment"></i> Travail : Coach Sportif</h4>
+                    <h4>Salut ! Je m'appelle Thibault, j'ai 23 ans. Je suis un grand fan de voyages,
+                        et, étant un coach sportif, j'aime beaucoup faire du sport en bonne compagnie.
+                    </h4>
+                    <div class="contact">
+                        <a href="login.html">
+                            <h3>Contactez Thibault</h3>
+                        </a>
+                    </div>
+                    <div class="more-profile">
+                        <a href="premium.html">
+                            <h3>Voir plus de profils</h3>
+                        </a>
+                    </div>
 
+                </div>
+            
+            <div class="croix-fermer">
+                <img src="/assets/img/croix.png"  onclick="closeThibault()"/>
             </div>
+            </div>
+            <script src="/assets/js/app.js" type="text/javascript"></script>
 
         </div>
         
-        <a href="#">
-            <div class="profile-second-content">
-                <img src="/assets/img/profile2.jpg" />
-                <h3>Léa</h3>
-                <h4>Centre d'intérêts :</h4>
-                <h4>Lecture</h4>
-                <h4>Dessin</h4>
-    
-                
+        <div class="profile-second-content" onclick="openLea()">
+            <img src="/assets/img/profile2.jpg" />
+            <h3>Léa</h3>
+            <h4>Centre d'intérêts :</h4>
+            <h4>Lecture</h4>
+            <h4>Dessin</h4>
+        </div>
+        <div id="profil-Lea">
+            <h1> Profil de Léa</h1>
+            <div class="big-profile1">
+                <img src="/assets/img/profile2.jpg" style="height: 630px; width:500px"/>
+                <div class="big-profile1-text">
+                    <h2>Lea, 24ans </h2>
+                    <h3><i class="fa-solid fa-house"></i>  à 17km de chez vous</h3>
+                    <h4><i class="fa-solid fa-comment"></i> Travail : Instritutrice</h4>
+                    <h4>Bonjour, je m'appelle Léa. J'apprécie la lecture (moi même ayant lu de nombreux
+                        ouvrages à mon actif). Je suis institrice et j'ai une passion pour le dessin et l'art.
+                    </h4>
+                    <div class="contact">
+                        <a href="login.html">
+                            <h3>Contactez Léa</h3>
+                        </a>
+                    </div>
+                    <div class="more-profile">
+                        <a href="premium.html">
+                            <h3>Voir plus de profils</h3>
+                        </a>
+                    </div>
+
+                </div>
+            
+            <div class="croix-fermer">
+                <img src="/assets/img/croix.png"  onclick="closeLea()"/>
             </div>
-        </a>
+            </div>
+            <script src="/assets/js/app.js" type="text/javascript"></script>
+
+        </div>
+        
+
+
+
+
         <a href="#">
             <div class="profile-second-content">
                 <img src="/assets/img/profile3.jpg" />
