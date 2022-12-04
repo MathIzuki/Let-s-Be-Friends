@@ -407,6 +407,120 @@
     margin-bottom: 20px;
 }
 
+
+
+
+
+
+#profil-Lucas{
+    position: absolute;
+    background-color: #5b5d76ee;
+    padding: 40px 100px;
+    z-index: 10;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+    margin: 0px 100px;
+    color: white;
+    transition: 0.5s;
+    top: -1000px;
+    border: 1px solid #dfc787;
+}
+
+#profil-Lucas h1{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #dfc887b6;
+
+}
+
+#profil-Lucas .big-profile1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#profil-Lucas .big-profile1 img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.39);
+}
+
+#profil-Lucas .big-profile1 .big-profile1-text{
+    text-align: center;
+    margin-left: 300px;
+    max-width: 40%;
+}
+
+#profil-Lucas .big-profile1 .big-profile1-text h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #dfc787;
+}
+
+#profil-Lucas .big-profile1 .big-profile1-text h3{
+    margin-bottom: 40px;
+}
+#profil-Lucas .big-profile1 .big-profile1-text h4{
+    margin-bottom: 20px;
+}
+
+
+
+
+#profil-Julie{
+    position: absolute;
+    background-color: #5b5d76ee;
+    padding: 40px 100px;
+    z-index: 10;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+    margin: 0px 100px;
+    color: white;
+    transition: 0.5s;
+    top: -1000px;
+    border: 1px solid #dfc787;
+}
+
+#profil-Julie h1{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #dfc887b6;
+
+}
+
+#profil-Julie .big-profile1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#profil-Julie .big-profile1 img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.39);
+}
+
+#profil-Julie .big-profile1 .big-profile1-text{
+    text-align: center;
+    margin-left: 300px;
+    max-width: 40%;
+}
+
+#profil-Julie .big-profile1 .big-profile1-text h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #dfc787;
+}
+
+#profil-Julie .big-profile1 .big-profile1-text h3{
+    margin-bottom: 40px;
+}
+#profil-Julie .big-profile1 .big-profile1-text h4{
+    margin-bottom: 20px;
+}
+
 .contact h3{
     margin-top: 100px;
     border: 3px solid #dfc787;
