@@ -7,56 +7,74 @@
         <link rel="icon" href="/assets/img/logosansfond.png">
     </head>
     <body>
+        <!-- Video en arrière plan-->
         <video id="background_video" loop muted autoplay>
             <source src="/assets/img/vid.mp4" type="video/mp4">
         </video>
 
+        <!-- Flèche retour (revenir à l'accueil) -->
         <div class="retour">
             <a href="index.html">
                 <img src="/assets/img/flecheretour.png" />
             </a>
         </div>
+
+        <!-- Conteneur-->
         <div class="signin-box">
             <h1 class="title-signin" style="text-transform: uppercase">S'enregistrer</h1>
+            
+            <!-- Formulaire d'enregistrement-->
             <form method="post">
+
+                <!-- Nom / prénom-->
                 <div class="nomPrenom">
+
+                    <!-- Nom-->
                     <div class="text-field-name">
                         <input id="name" type="text" required placeholder="Nom">
                     </div>
 
+                    <!-- Prénom-->
                      <div class="text-field-firstName">
                         <input id="firstName" type="text" required placeholder="Prénom">
                     </div>
                 </div>
 
+                <!-- Adresse / cp-->
                 <div class="adresse_cp">
+
+                    <!-- Adresse-->
                     <div class="text-field-addresse">
                         <input id="adresse" type="text" required placeholder="Adresse">
                     </div>
 
+                    <!-- Code postal-->
                     <div class="text-field-cp">
                         <input id="cp" type="text" maxlength="5" required placeholder="Code Postal">
                     </div>
                 </div>
 
+                <!-- E-mail-->
                 <div class="text-field-email">
                     <input id="email" type="email" required placeholder="E-mail">
                 </div>
 
+                <!-- Mot de passe-->
                 <div class="text-field-mdp">
                     <input id="mdp" type="password" required placeholder="Mot de passe">
                 </div>
 
                 
+              <!-- Boutton enregistrement-->  
               <div class="btn-form">
                 <button><a id="register" href="index.html">S'enregister</a></button>
               </div>
-            </form>
+            </form> <!-- Fin du formulaire-->
+
+            <!-- Lien de connexion-->
             <div class="alreadylogin">
               <p style="color: #fff;">Déjà enregisté ? <a href="login.html">S'indentifier</a></p>
             </div>
         </div>
     </body>
-
-
 </html>

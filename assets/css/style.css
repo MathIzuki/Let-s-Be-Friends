@@ -2,6 +2,9 @@
 @import url('https://fonts.cdnfonts.com/css/better-saturday');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
+::selection {
+    background-color: #dfc787;
+  }
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -49,6 +52,7 @@
     font-size: 25px;
     color: #5B5D76;
     transition: 0.3s;
+    border-bottom: 3px solid #dfc787;
 }
 
 .navbar .navbar-right ul li:hover{
@@ -174,16 +178,16 @@
 .third-content .contenu-image .premium img{
     width: 40px;
     position: absolute;
-    top: 1450px;
-    left: 1650px;
+    top: 1440px;
+    left: 87%
     
 }
 
 .third-content .contenu-image .cloche img{
     width: 40px;
     position: absolute;
-    top: 1450px;
-    left: 480px;
+    top: 1440px;
+    left: 11%;
 }
 
 .fourth-content{
@@ -200,12 +204,13 @@
     width: 700px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
     float: left;
+    border-radius: 10px;
 }
 
 .fourth-content .text-fourth-content{
     text-align: center;
     float: right;
-    margin-left: 350px;
+    margin-left: 30%;
 
 }
 

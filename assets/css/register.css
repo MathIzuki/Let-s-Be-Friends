@@ -112,6 +112,11 @@ body{
 
   #firstName{
     font-style: italic;
+    color: white;
+  }
+
+  #firstName::placeholder{
+    color: rgba(255, 255, 255, 0.61);
   }
 
   /* Formulaire (nom) */
@@ -133,6 +138,11 @@ body{
 
   #name {
     font-style: italic;
+    
+  }
+
+  #name::placeholder{
+    color: rgba(255, 255, 255, 0.61);
   }
 
   /* div adresse / cp */
@@ -157,10 +167,14 @@ body{
     margin-top: 2.5px;
   }
 
-    #cp {
-        font-style: italic;
-        font-size: 15px;
-    }
+  #cp {
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  #cp::placeholder{
+    color: rgba(255, 255, 255, 0.61);
+  }
 
   /* adresse */
   form .text-field-adresse {
@@ -180,6 +194,7 @@ body{
 
     #adresse::placeholder {
       font-style: italic;
+      color: rgba(255, 255, 255, 0.61);
   }
   
   /* formulaire email */
@@ -198,7 +213,9 @@ body{
 
   #email::placeholder{
     font-style: italic;
+    color: rgba(255, 255, 255, 0.61);
   }
+
   /* formulaire mot de passe */
   .signin-box .text-field-mdp {
     position: relative;
@@ -215,6 +232,7 @@ body{
 
   #mdp::placeholder{
     font-style: italic;
+    color: rgba(255, 255, 255, 0.61);
   }
 
   /*autre*/

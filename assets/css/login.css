@@ -99,99 +99,6 @@ body{
   input:valid~label {
     color: #dfc887;
   }
-
-  /*div nom / prénom */
-
-  .signin-box .nomPrenom {
-    display: flex;
-  }
-
-    /*Formulaire (Prénom) */
-    form .text-field-firstName {
-        position: relative;
-        border-radius: 30px;
-        margin: 30px;
-  }
-
-  .signin-box .text-field-firstName input{
-    position: relative;
-    left: 18px;
-    width: 160px;
-    height: 200 44px;
-    line-height: 44px;   
-  }
-
-  #firstName{
-    font-style: italic;
-  }
-
-  /* Formulaire (nom) */
-  form .text-field-name {
-    position: relative;
-    border-radius: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-
-  .signin-box .text-field-name input{
-    position: relative;
-    right: -55px;
-    width: 160px;
-    height: 44px;
-    line-height: 44px; 
-  }
-
-  #name {
-    font-style: italic;
-  }
-
-  /* div adresse / cp */
-  form .adresse_cp {
-    display: flex;
-  }
-
-  /* cp */
-  form .text-field-cp {
-    position: relative;
-    border-radius: 30px;
-    margin-left: 30px;
-    margin-top: -20px;
-  }
-
-  .signin-box .text-field-cp input{
-    position: relative;
-    right: -60px;
-    width: 90px;
-    height: 44px;
-    line-height: 44px;
-    margin-top: 2.5px;
-  }
-
-    #cp {
-        font-style: italic;
-        font-size: 15px;
-    }
-
-  /* adresse */
-  form .text-field-adresse {
-    position: relative;
-    border-radius: 30px;
-  }
-
-  .signin-box .text-field-addresse input{
-    position: relative;
-    left: 85px;
-    width: 250px;
-    height: 44px;
-    line-height: 44px;
-    margin-bottom: 8px;
-    margin-top: -20px; 
-  }
-
-    #adresse::placeholder {
-      font-style: italic;
-  }
   
   /* formulaire email */
   .signin-box .text-field-email {
@@ -210,6 +117,11 @@ body{
   #email::placeholder{
     font-style: italic;
   }
+
+  #email::placeholder{
+    color: rgba(255, 255, 255, 0.61);
+  }
+
   /* formulaire mot de passe */
   .signin-box .text-field-mdp {
     position: relative;
@@ -226,6 +138,7 @@ body{
 
   #mdp::placeholder{
     font-style: italic;
+    color: rgba(255, 255, 255, 0.61);
   }
 
   /*autre*/

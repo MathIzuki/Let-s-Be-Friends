@@ -7,35 +7,46 @@
         <link rel="icon" href="/assets/img/logosansfond.png">
     </head>
     <body>
+
+        <!-- Video en arrière plan-->
         <video id="background_video" loop muted autoplay>
             <source src="/assets/img/vid.mp4" type="video/mp4">
         </video>
+
+        <!-- Retour à la page accueil-->
         <div class="retour">
             <a href="index.html">
                 <img src="/assets/img/flecheretour.png" />
             </a>
         </div>
+
+        <!-- Conteneur login-->
         <div class="signin-box">
             <h1 class="title-signin" style="text-transform: uppercase">Se connecter</h1>
+            
+            <!-- Formulaire-->
             <form method="get">
                 
+                <!-- Champ e-mail -->
                 <div class="text-field-email">
-                    <input id="email" type="email" required placeholder="E-mail">
+                    <input id="email" type="email" required placeholder="E-mail" style="color: white;">
                 </div>
 
+                <!-- Champ mot de passe-->
                 <div class="text-field-mdp">
                     <input id="mdp" type="password" required placeholder="Mot de passe">
                 </div>
                 
+              <!-- Boutton se connecter-->
               <div class="btn-form">
                 <button><a id="register" href="index.html">Se connecter</a></button>
               </div>
             </form>
+
+            <!-- Lien créer un compte-->
             <div class="alreadylogin">
               <p style="color: #fff;">Vous n'avez pas encore de compte ? <a href="register.html">Créer un compte</a></p>
             </div>
         </div>
     </body>
-
-
 </html>
