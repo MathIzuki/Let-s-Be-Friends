@@ -178,16 +178,11 @@
 .third-content .contenu-image .premium img{
     width: 40px;
     position: absolute;
-    top: 1440px;
-    left: 87%
-    
 }
 
 .third-content .contenu-image .cloche img{
     width: 40px;
     position: absolute;
-    top: 1440px;
-    left: 11%;
 }
 
 .fourth-content{
@@ -198,6 +193,7 @@
     border: 1px solid #dfc787;
     margin: 4%;
     padding: 50px;
+    justify-content: space-around;
 }
 
 .fourth-content .image-fourth-content img{
@@ -210,7 +206,6 @@
 .fourth-content .text-fourth-content{
     text-align: center;
     float: right;
-    margin-left: 30%;
 
 }
 
