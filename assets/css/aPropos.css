@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/better-saturday');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+  
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgba(3, 3, 3, 0.164)
+}
+.navbar ul{
+    display: flex;
+    text-align: center;
+
+}
+.navbar ul li{
+    font-size: 17px;
+    color: #5B5D76;
+}
+.navbar .navbar-left ul li{
+    display: flex;
+    margin-right: 40px;
+    transition: 0.3s;
+    border-bottom: 2.5px solid #5b5d7600;
+}
+.navbar .navbar-right ul li{
+    display: flex;
+    margin-left: 40px;
+    transition: 0.3s;
+    border-bottom: 2.5px solid #5b5d7600;
+}
+
+.navbar .navbar-centre ul li{
+    margin-left: 50px;
+    font-size: 25px;
+    color: #5B5D76;
+    transition: 0.3s;
+}
+
+.navbar .navbar-right ul li:hover{
+    border-bottom: 2.5px solid #5B5D76;
+    transition: 0.3s;
+}
+
+.navbar .navbar-left ul li:hover{
+    border-bottom: 2.5px solid #5B5D76;
+    transition: 0.3s;
+}
+
+/*Container*/
+.container-content{
+    display: flex;
+    background-color: #5b5d76;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.356);
+    margin-top: 60px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+/*Container 1*/
+.container-1{
+    font-size: 28px;
+    margin-left: 3%;;
+    color: white;
+    border-top: 3px solid #dfc787;
+    border-left: 3px solid #dfc787;
+    width: 30%;
+    padding: 15px;
+    margin-right: 2em;
+}
+
+.container-1 h3{
+    color: #dfc787;
+    text-transform: uppercase;
+    margin: 8px;
+    font-size: 25px;
+}
+
+.container-1 h5{
+    font-size: 25 px;
+    text-decoration: none;
+}
+
+/*container2*/
+.container-2{
+    font-size: 28px;
+    margin-left: -25%;
+    color: white;
+    border-top: 3px solid #dfc787;
+    width: 30%;
+    padding: 15px;
+    margin-top: 3.9em;
+    margin-right: 2em;
+    
+}
+
+.container-2 h3{
+    color: #dfc787;
+    text-transform: uppercase;
+    margin: 8px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-2 h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*container3*/
+.container-3{
+    font-size: 28px;
+    margin-left: -25%;
+    color: white;
+    border-top: 3px solid #dfc787;
+    border-right: 3px solid #dfc787;
+    width: 30%;
+    padding: 15px;
+    top: 150px;
+}
+
+.container-3 h3{
+    color: #dfc787;
+    text-transform: uppercase;
+    margin: 8px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.container-3 h5{
+    font-size: 25 px;
+    text-align: right;
+}
+
+/*white container*/
+.white-container{
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+/*White container 1*/
+.white-container-1{
+    border-right: 3px solid #dfc787;
+    padding: 0px 10px;
+    padding-right: 100px;
+    margin-left: 25px;
+}
+
+.white-container-1 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    color: #dfc787;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.white-container-1 h5{
+    font-size: 20px;
+    text-align: center;
+    color: #5B5D76;
+    padding-top: 10px;
+}
+
+.white-container-2{
+    font-size: 28px;
+    margin-left: 3%;
+    color: #5B5D76;
+    width: 30%;
+    padding: 15px;
+}
+
+.white-container-2 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    color: #dfc787;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.white-container-2 h5{
+    font-size: 20px;
+    text-align: center;
+    color: #5B5D76;
+    padding-top: 10px;
+}
+
+/*container contact*/
+.container_contact{
+    border: 2px solid #dfc787;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    display: flex;
+}
+
+.container_contact .contact h3{
+    font-size: 25px ;
+    color: #dfc787;
+    text-transform: uppercase;
+    margin-top: 0.8em;
+    padding-left: 15em;
+    text-decoration: underline;
+}
+
+.container_contact span h4{
+    margin-left: 5em;
+    margin-top: 2em;
+    color: #5B5D76;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.container_contact span h4 a{
+    padding: 1px;
+    color: #5b5d76;
+}
+
+.container_contact span h4 a:hover{
+    color: #dfc787;
+    border-bottom: #dfc787 1px solid;
+}
+
+
+
+/*Footer*/
+.footer{
+    background-color: rgb(38, 38, 71);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.footer .redirection{
+    padding: 0px 100px;
+    display: flex;
+    align-content: center;
+}
+
+.footer .redirection a p{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+    align-content: center;
+    align-items: center;
+    transition: 0.2s;
+    color: white;
+}
+
+.footer .redirection a p:hover{
+    color: #dfc787;
+    transition: 0.2s;
+}
+
+.footer .logo-right{
+    padding: 0px 300px;
+    border-left: 1px solid rgb(119, 119, 119);
+    display: flex;
+    user-select: none;
+    align-items: center;
+
+}
+
+.footer .logo-right h1{
+    font-weight: 400;
+}
+.footer .logo-right img{
+    width: 80px;
+    height: 80px;
+}
+
